@@ -1,0 +1,14 @@
+/* Cores */
+:root{
+    --bege: beige;
+    --bege-escuro: rgb(207, 207, 187);
+}
+
+
+/*Fonte personalizada*/
+@font-face {
+    font-family: "Font-Title";
+    src: url("../fonts/csayliosdisco-regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

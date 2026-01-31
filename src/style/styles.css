@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--bege);
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.app {
+  padding: 16px;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+/* Tela */
+#container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+#top-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#bottom-container{
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+
+/* Parte de cima */
+#left-top-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  border: 3px solid black;
+  border-bottom: none;
+}
+
+#program-title{
+  font-family: "Font-Title", sans-serif;
+  font-size: 60px;
+}
+
+#right-top-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-left: none;
+  border-bottom: none;
+}
+
+#searchbar{
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 10px 16px;
+  border: 2px solid #0b2a66;
+  border-radius: 999px;
+  background: #fff;
+  gap: 10px;
+  border: 2px solid black;
+  transition: 0.6s ease all;
+}
+
+#searchbar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #0b2a66;
+}
+
+#search-icon {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+#search-input{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-family: "Font-Title", sans-serif;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.6s ease all;
+}
+
+#search-input:focus{
+    outline: none;
+    border-color: black;
+}
+
+
+/* Parte de baixo */
+
+/* Menu lateral */
+#left-bottom-container{
+  border: 3px solid black;
+  display: grid;
+  grid-template-rows: 50px auto;
+}
+
+#left-bottom-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid black;
+}
+
+.general-title{
+  font-family: "Font-Title", sans-serif;
+  font-size: 24px;
+}
+
+#left-bottom-content{
+  display: grid;
+  grid-template-rows: auto 50px 50px;
+}
+
+#left-configurations{
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-profile{
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-user-select{
+  transition: 0.3s ease all;
+}
+
+.left-user-select:hover{
+  background-color: var(--bege-escuro);
+  cursor: pointer;
+}
+
+
+/* Direita */
+#right-bottom-container{
+  border: 3px solid black;
+  border-left: none;
+}
