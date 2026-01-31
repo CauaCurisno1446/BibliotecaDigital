@@ -73,8 +73,5 @@ Para rodar a **Biblioteca Digital** localmente, siga os passos abaixo:
 
 
 
-
-> ⚠️ Certifique-se de ter o **Python 3.10+** instalado em sua máquina.
-
 <br>
 <br>
