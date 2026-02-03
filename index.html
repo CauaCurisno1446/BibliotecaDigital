@@ -12,7 +12,7 @@
     <section id="container">
       <div id="top-container">
         <div id="left-top-container">
-            <h1 id="program-title">Biblioteca Digital</h1>
+            <h1 id="program-title">Biblioteca <span style="color: var(--marrom);">Digital</span></h1>
         </div>
 
         <div id="right-top-container">
@@ -26,34 +26,40 @@
       <div id="bottom-container">
         <div id="left-bottom-container">
           <div id="left-bottom-title">
-            <h2 class="general-title">Livros</h2>
+            <h2 class="general-title" style="color: var(--marrom);">Livros</h2>
           </div>
 
           <div id="left-bottom-content">
             <div id="left-book-list">
-
+              <ul id="left-books"></ul>
             </div>
 
-            <div id="left-profile" class="left-user-select">
-              <i class="fa-solid fa-user" style="font-size: 24px; margin-right: 10px;"></i>
-              <h2 class="general-title">Perfil</h2>
+            <div class="left-links">
+              <a href="#" id="btn-profile">
+                <i class="fa-solid fa-user left-icon"></i>
+                Perfil
+              </a>
             </div>
 
-            <div id="left-configurations" class="left-user-select">
-              <i class="fa-solid fa-gear" style="font-size: 24px; margin-right: 10px;"></i>
-              <h2 class="general-title">Configurações</h2>
+            <div class="left-links">
+              <a href="#" id="btn-config">
+                <i class="fa-solid fa-gear left-icon"></i>
+                Configurações
+              </a>
             </div>
+            
             
           </div>
         </div>
         
         <div id="right-bottom-container">
-        
+          <div id="right-viewer"></div>
         </div>
       </div>
     </section>
 
-    <script src="src/scripts/script.js"></script>
+    <script src="src/scripts/screens.js"></script>
+    <script src="src/scripts/books.js"></script>
   </body>
 </html>
 
