@@ -1,4 +1,4 @@
-<img src="./src/static/img/logo.png" alt="logo">
+<img src="./src/img/logo.png" alt="logo">
 <hr>
 
 <br>
